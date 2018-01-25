@@ -32,20 +32,31 @@
 
 
 $(document).ready(function() {
-            // $("").click(function() {
+            // $("rps").click(function() {
 
             // });
-
+var random = Math.floor(Math.random() * 11);
+alert('Random number is' + random);
+if (random <= 5) {
+  alert('small');   
+}
+else{
+    alert('big');
+}
             // $("#filter").click(function() {
             //     var random = Math.floor(Math.random() * 5) + 1;
             //     alert(random);
 
             // });
 
+$("button").click(function() {
+        var inputValue = $("input").val();
+        
+        // Write a conditional statement that console.logs the letter grade given a score in the input box
+       if (inputValue >= 'rock' && inputValue < 'paper' ){
+            consol e.log('');
 
 
-
-  alert(  $("true").val());
             // $("#rps").click(function() {
             //     alert($("#name").val());
             // });
